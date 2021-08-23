@@ -33,8 +33,6 @@ COMMENT ON COLUMN public.cidade.cod_tom
   IS 'Código TOM (SEFAZ)';
   
 
-ALTER TABLE public.cidade OWNER TO postgres;
-
 --
 -- Name: cidade_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
@@ -46,8 +44,6 @@ CREATE SEQUENCE public.cidade_id_seq
     NO MAXVALUE
     CACHE 1;
 
-
-ALTER TABLE public.cidade_id_seq OWNER TO postgres;
 
 --
 -- Name: cidade_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
