@@ -1,4 +1,4 @@
-package com.dio.everis.bootcamp.tests;
+package com.dio.everis.bootcamp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
